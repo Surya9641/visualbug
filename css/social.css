@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(
+    180deg,
+    rgba(128.85, 166.85, 240.59, 0.17) 0%,
+    rgba(235.44, 115.32, 255, 0.32) 100%
+  );
+  width: 100vw;
+  height: 100vh;
+}
+
+.nav-bar {
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+  margin-bottom: 100px;
+  background: linear-gradient(
+    180deg,
+    rgba(68, 63, 63, 0.43) 0%,
+    rgba(35, 33, 33, 0.78) 100%
+  );
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  /* border: 2px solid red; */
+  height: px;
+  width: 15%;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+.span1 {
+  color: white;
+  font-size: 48px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  word-wrap: break-word;
+  margin-left: 12px;
+}
+
+.span2 {
+  color: #ff0000;
+  font-size: 48px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+.sub-nav {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.explore {
+  width: 10%;
+  height: 100%;
+}
+.explore a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.code {
+  width: 149px;
+  height: 37px;
+  border: 1px rgba(255, 255, 255, 0.73) solid;
+  background: #ff0000;
+  text-align: center;
+  box-shadow: 4px 1px 5.300000190734863px rgba(0, 0, 0, 0.25);
+}
+
+.code a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.search-icon {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  cursor: pointer;
+}
+
+.profile {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  cursor: pointer;
+}
+
+/* main section start here */
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.heading-1 {
+  font-size: 2.3rem;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 1rem;
+}
+.span-1 {
+  color: #000;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.span-2 {
+  color: #ff0000;
+}
+
+.heading-2 {
+  font-size: 1.3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #000;
+  margin-bottom: 3rem;
+}
+
+.social {
+    margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  font-size: 1.6rem;
+}
+
+.left {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.right {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.social a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.social-1 {
+  width: 459px;
+  height: 76px;
+  background-color: #23a0dc;
+  border-radius: 100px;
+  margin-top: 10px;
+  margin-left: 300px;
+  display: flex;
+  justify-content: center;
+}
+.social-2 {
+  width: 459px;
+  height: 76px;
+  background-color: #3b579d;
+  border-radius: 100px;
+  margin-top: 10px;
+  margin-left: 300px;
+  display: flex;
+  justify-content: center;
+}
+.social-3 {
+  width: 459px;
+  height: 76px;
+  background-color: #7289d9;
+  border-radius: 100px;
+  margin-top: 10px;
+  margin-left: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.social-4 {
+  width: 459px;
+  height: 76px;
+  background-color: #23a0dc;
+  border-radius: 100px;
+  margin-top: 10px;
+  margin-left: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.social-5 {
+  width: 459px;
+  height: 76px;
+  background-color: #3b579d;
+  border-radius: 100px;
+  margin-top: 10px;
+  margin-left: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.social-6 {
+  width: 459px;
+  height: 76px;
+  background-color: #e003e1;
+  border-radius: 100px;
+  margin-top: 10px;
+  margin-left: 300px;
+  display: flex;
+}
+.social a {
+  /* border: 2px solid green; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
