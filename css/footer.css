@@ -13,11 +13,11 @@
   height: 99%;
   margin-top: 20px;
 
-  background: linear-gradient(
+    background: linear-gradient(
     180deg,
-    #cacaca 0%,
-    rgba(219.34, 219.34, 219.34, 0.19) 0%,
-    rgba(197.13, 191.07, 191.07, 0.9) 100%
+    #000000 0%,
+    rgba(82, 76, 76, 0.19) 0%,
+    rgba(86, 72, 72, 0.9) 100%
   );
   box-shadow: 6.383386611938477px 9.575079917907715px 6.383386611938477px -1.063897728919983px
     rgba(0, 0, 0, 0.25);
